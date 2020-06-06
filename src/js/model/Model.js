@@ -1,5 +1,5 @@
 export default class BudgetModel {
 	constructor() {
-		console.log("This is Model");
+		this.heading = "I'm the view";
 	}
 }

@@ -8,7 +8,7 @@ class Controller {
 	}
 
 	init() {
-		this.view.render();
+		this.view.render(this.model.heading);
 	}
 }
 
