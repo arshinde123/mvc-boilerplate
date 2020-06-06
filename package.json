@@ -1,0 +1,49 @@
+{
+	"name": "mvc-boilerplate",
+	"version": "1.0.0",
+	"description": "MVC boilerplate",
+	"main": "index.js",
+	"scripts": {
+		"dev": "webpack --mode development",
+		"build": "webpack --mode production",
+		"start": "webpack-dev-server --mode development --open"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/arshinde123/budgetly.git"
+	},
+	"keywords": [
+		"javascript",
+		"es6",
+		"html",
+		"css",
+		"webpack",
+		"babel"
+	],
+	"author": "Arvind Shinde",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/arshinde123/budgetly/issues"
+	},
+	"homepage": "https://github.com/arshinde123/budgetly#readme",
+	"devDependencies": {
+		"@babel/core": "^7.10.2",
+		"@babel/preset-env": "^7.10.2",
+		"babel-loader": "^8.1.0",
+		"css-loader": "^3.5.3",
+		"file-loader": "^6.0.0",
+		"html-webpack-plugin": "^4.3.0",
+		"sass": "^1.26.8",
+		"sass-loader": "^8.0.2",
+		"style-loader": "^1.2.1",
+		"webpack": "^4.43.0",
+		"webpack-cli": "^3.3.11",
+		"webpack-dev-server": "^3.11.0"
+	},
+	"dependencies": {
+		"@babel/runtime": "^7.10.2",
+		"bootstrap": "^4.5.0",
+		"core-js": "^3.6.5",
+		"font-awesome": "^4.7.0"
+	}
+}
